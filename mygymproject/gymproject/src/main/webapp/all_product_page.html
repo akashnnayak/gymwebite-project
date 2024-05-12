@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    font-family: 'Poppins', sans-serif
+}
+body{
+    background-color: #131b2b;
+}
+
+header div a {
+    color: #00FF00; /* Change the color to green using hexadecimal value */
+    
+  }
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.product-card {
+    width: 25%;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-color: black;
+    border-radius: 3%;
+
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.5);
+    
+}
+
+.product-card img {
+    width: 45%;
+    height: auto;
+}
+
+.product-card h3 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.product-card p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+
+
+.product-card .price {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.product-card button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.product-card button:hover {
+    background-color: #3e8e41;
+}
+    
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <a href="home.html">back to home page</a>
+        </div>
+    </header>
+    <div class="container">
+        <div class="product-card">
+            <img src="protine1.jpg" alt="protein">
+            <h3>Premium Gold Whey Protein</h3>
+            <p>Premium Gold Whey Protein - 1 KG / DOUBLE RICH CHOCOLATE</p>
+            <span class="price">₹500</span>
+            <button onclick="window.location.href='product1_checkout.html'" >Buy Now</button>
+        </div>
+        <div class="product-card">
+            <img src="protein5.jpg" alt="protein">
+            <h3>Protein & Herbs</h3>
+            <p>Protein & Herbs for Weight Management, Women - Cafe mocha, 500 g</p>
+            <span class="price">₹500</span>
+            <button onclick="window.location.href='product2_chk.html'">Buy Now</button>
+        </div>
+        <div class="product-card">
+            <img src="protein3.jpg" alt="protein">
+            <h3>Impact Whey Protein</h3>
+            <p>Highest-quality British-manufactured product</p>
+            <span class="price">₹500</span>
+            <button onclick="window.location.href='product3_chk.jsp'" >Buy Now</button>
+        </div>
+        <div class="product-card">
+            <img src="protein4.jpg" alt="protein">
+            <h3>MuscleBlaze</h3>
+            <p>MuscleBlaze Biozyme Performance Whey, 1.75 kg (3.85 lb), Triple Chocolate</p>
+            <span class="price">₹500</span>
+            <button onclick="window.location.href='product4_chk.html'" >Buy Now</button>
+        </div>
+    </div>
+</body>
+</html>
